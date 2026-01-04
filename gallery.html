@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Clear Cut Crew</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <main class="mx-auto px-4 py-20 bg-green-600">
+        <!-- Hero Section -->
+        <section class="rounded-2xl p-8 md:p-32 text-white mb-16 flex items-center justify-center" style="
+            background-image: url('https://huggingface.co/spaces/Matb3nj1/clear-cut-crew-lawn-masters/resolve/main/images/hero pic 2.png');
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: overlay;
+        ">
+            <div class="flex flex-col items-center text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Our Work Gallery</h1>
+                <p class="text-lg text-white max-w-2xl">See the quality and care we put into every project</p>
+            </div>
+        </section>
+
+        <!-- Gallery Grid -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-20">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+                <img src="https://huggingface.co/spaces/Matb3nj1/clear-cut-crew-lawn-masters/resolve/main/images/Beautiful Lawn 1.jpeg" 
+alt="Lawn Care Service" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+                <div class="p-4 bg-green-900 text-white">
+                    <h3 class="text-xl font-semibold mb-2">Lawn Transformation</h3>
+                    <p class="text-green-100">Before and after of our complete lawn improvement service</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+                <img src="https://huggingface.co/spaces/Matb3nj1/clear-cut-crew-lawn-masters/resolve/main/images/Snow removed.jpg" 
+                     alt="Snow Removal Service" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+<div class="p-4 bg-green-900 text-white">
+                    <h3 class="text-xl font-semibold mb-2">Snow Removal</h3>
+                    <p class="text-green-100">Driveway completely cleared after heavy snowfall</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1738193830098-2d92352a1856?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxhd24lMjBjYXJlfGVufDB8fDB8fHww" 
+                     alt="Landscaping Service" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+                <div class="p-4 bg-green-900 text-white">
+                    <h3 class="text-xl font-semibold mb-2">Landscaping Project</h3>
+                    <p class="text-green-100">Custom garden design and installation</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+                <img src="https://huggingface.co/spaces/Matb3nj1/clear-cut-crew-lawn-masters/resolve/main/images/Nice hedge trim pic.jpeg" 
+                     alt="Hedge Trimming" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+<div class="p-4 bg-green-900 text-white">
+                    <h3 class="text-xl font-semibold mb-2">Hedge Trimming</h3>
+                    <p class="text-green-100">Precision hedge shaping and maintenance</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 5 -->
+            <div class="gallery-item overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1635878139456-2459d314d961?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFsbCUyMGNsZWFudXB8ZW58MHx8MHx8fDA%3D" 
+                     alt="Seasonal Cleanup" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+                <div class="p-4 bg-green-900 text-white">
+                    <h3 class="text-xl font-semibold mb-2">Fall Cleanup</h3>
+                    <p class="text-green-100">Complete leaf removal and property preparation for winter</p>
+                </div>
+            </div>
+
+            <!-- Gallery Item 6 -->
+            <div class="gallery-item overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
+                <img src="https://images.unsplash.com/photo-1764969370921-7c8df49171cd?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                     alt="Lawn Mowing" class="w-full h-64 object-cover hover:scale-105 transition duration-500">
+                <div class="p-4 bg-green-900 text-white">
+                    <h3 class="text-xl font-semibold mb-2">Lawn Maintenance</h3>
+                    <p class="text-green-100">Weekly lawn cutting with clean edges and precise lines</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bg-green-900 rounded-2xl p-12 md:p-20 text-white text-center shadow-xl max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-black">Ready to Transform Your Property?</h2>
+            <p class="text-lg text-white max-w-2xl mx-auto mb-8">
+                Our team delivers the same quality and care you see in our gallery to every client.
+            </p>
+            <a href="/contact.html" class="bg-white text-green-800 px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-100 transition inline-block">
+                Get Your Free Quote
+            </a>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

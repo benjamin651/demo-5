@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Clear Cut Crew</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script src="components/navbar.js"></script>
+  <script src="components/footer.js"></script>
+</head>
+
+<body class="bg-gray-50">
+  <custom-navbar></custom-navbar>
+
+  <main class="mx-auto px-4 py-20 max-w-6xl bg-green-600">
+
+    <!-- Hero / Intro -->
+    <section class="text-center mb-20">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Built on Hard Work, Trust, and Pride
+      </h1>
+      <p class="text-xl text-white max-w-3xl mx-auto">
+        Clear Cut Crew isn’t just a lawn care company — it’s a promise to show up,
+        do the job right, and treat every property like it’s our own.
+      </p>
+    </section>
+
+    <!-- Our Story -->
+    <section class="bg-green-900 rounded-2xl shadow-xl overflow-hidden mb-24">
+      <img
+        src="https://huggingface.co/spaces/Matb3nj1/clear-cut-crew-lawn-masters/resolve/main/images/group pic.jpg"
+        alt="Our Team"
+        class="w-full h-64 md:h-96 object-cover"
+      />
+<div class="p-10 md:p-16 text-black">
+        <h2 class="text-3xl font-bold mb-6">Our Story</h2>
+
+        <p class="text-white leading-relaxed mb-6">
+          Clear Cut Crew started with a simple idea: do honest work and take pride
+          in it. What began as a small local operation serving neighbors in the
+          We quickly grew through word of mouth — not ads, not shortcuts,
+          but results.
+        </p>
+
+        <p class="text-white leading-relaxed">
+          We’ve worked early mornings, long days, and harsh winters to build
+          something we’re proud of. Today, we’re trusted by homeowners and
+          businesses who want reliability, quality, and people who genuinely care
+          about their property.
+        </p>
+      </div>
+    </section>
+
+    <!-- Why We Care (Empathy Section 1) -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">
+          We Know What It’s Like to Be Let Down
+        </h2>
+        <p class="text-white leading-relaxed mb-4">
+          Missed appointments. Rushed jobs. Contractors who disappear after
+          payment. We’ve been there — and that’s exactly why we built Clear Cut
+          Crew differently.
+        </p>
+        <p class="text-white leading-relaxed">
+          When we commit to your property, we commit fully. Clear communication,
+          consistent quality, and respect for your time are non-negotiable.
+        </p>
+      </div>
+
+      <div class="bg-green-900 rounded-2xl p-8 shadow-md">
+        <div class="flex items-center gap-4 mb-4">
+          <i data-feather="check-circle" class="text-green-600 w-8 h-8"></i>
+          <h3 class="text-xl font-semibold">No Shortcuts</h3>
+        </div>
+        <p class="text-white">
+          We do the job properly — even when no one is watching.
+        </p>
+      </div>
+    </section>
+
+    <!-- Values -->
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-24">
+      <div class="bg-green-900 text-white rounded-2xl p-8 shadow-lg">
+        <i data-feather="award" class="w-10 h-10 text-green-400 mb-4"></i>
+        <h3 class="text-xl font-bold mb-2">Pride in Our Work</h3>
+        <p class="text-green-100">
+          Every lawn, driveway, and garden reflects our name — and we take that
+          seriously.
+        </p>
+      </div>
+
+      <div class="bg-green-900 text-white rounded-2xl p-8 shadow-lg">
+        <i data-feather="clock" class="w-10 h-10 text-green-400 mb-4"></i>
+        <h3 class="text-xl font-bold mb-2">Reliability</h3>
+        <p class="text-green-100">
+          We show up when we say we will, ready to work.
+        </p>
+      </div>
+
+      <div class="bg-green-900 text-white rounded-2xl p-8 shadow-lg">
+        <i data-feather="heart" class="w-10 h-10 text-green-400 mb-4"></i>
+        <h3 class="text-xl font-bold mb-2">People First</h3>
+        <p class="text-green-100">
+          Clients aren’t numbers to us — they’re neighbors.
+        </p>
+      </div>
+    </section>
+
+    <!-- Empathy Section 2 -->
+    <section class="bg-green-900 rounded-2xl p-12 md:p-16 text-center mb-24">
+      <h2 class="text-3xl font-bold mb-4">
+        Your Property Matters — So Do You
+      </h2>
+      <p class="text-white max-w-3xl mx-auto leading-relaxed">
+        Whether it’s the lawn your kids play on, the driveway you rely on during
+        winter, or the curb appeal that makes your house feel like home — we
+        understand the emotional value behind the work.
+      </p>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-green-900 rounded-2xl p-12 md:p-20 text-white text-center shadow-xl">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 text-black">
+        Let’s Take Care of Your Property
+      </h2>
+      <p class="text-lg text-white max-w-2xl mx-auto mb-8">
+        Join the homeowners and businesses who trust Clear Cut Crew year-round.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a
+          href="/contact"
+          class="bg-white text-green-800 px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-100 transition"
+        >
+          Get a Free Quote
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <custom-footer></custom-footer>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>

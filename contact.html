@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Clear Cut Crew</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-green-600">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-16">
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h1 class="text-4xl font-bold mb-6">Get a Free Quote</h1>
+                <p class="text-white mb-8">Fill out the form and we'll get back to you within 24 hours with a free estimate for our services.</p>
+                
+                <form id="contact-form" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                    </div>
+                    
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                    </div>
+                    
+                    <div>
+                        <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                    </div>
+                    
+                    <div>
+                        <label for="service" class="block text-sm font-medium text-gray-700 mb-1">Service Needed</label>
+                        <select id="service" name="service" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500">
+                            <option value="">Select a service</option>
+                            <option value="lawn">Lawn Improvement</option>
+                            <option value="snow">Snow Removal</option>
+                            <option value="landscaping">Landscaping</option>
+                            <option value="seasonal">Seasonal Cleanup</option>
+                            <option value="lawncut">Lawn Cutting</option>
+<option value="other">Other</option>
+</select>
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-green-900 text-white py-3 px-6 rounded-md font-medium hover:bg-green-700 transition duration-300">
+                        Request Free Quote
+                    </button>
+                </form>
+            </div>
+            
+            <div>
+                <div class="bg-green-900 p-8 rounded-xl shadow-md mb-8">
+                    <h2 class="text-2xl font-bold mb-6">Contact Information</h2>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i data-feather="phone" class="text-green-600 mr-4 mt-1"></i>
+                            <div>
+                                <h3 class="font-semibold text-white">Phone</h3>
+                                <p class="text-white">(514) 555-1234</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-feather="mail" class="text-green-600 mr-4 mt-1"></i>
+                            <div>
+                                <h3 class="font-semibold text-white">Email</h3>
+                                <p class="text-white">info@clearcutcrew.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-feather="map-pin" class="text-green-600 mr-4 mt-1"></i>
+                            <div>
+                                <h3 class="font-semibold text-white">Location</h3>
+                                <p class="text-white">Canada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-green-900 p-8 rounded-xl shadow-md">
+                    <h2 class="text-2xl font-bold mb-6">Service Hours</h2>
+                    <div class="space-y-3">
+                        <div class="flex justify-between">
+                            <span class="font-medium text-white">Monday - Friday</span>
+                            <span class="text-white">8:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-medium text-white">Saturday</span>
+                            <span class="text-white">9:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-medium text-white">Sunday</span>
+                            <span class="text-white">Closed</span>
+                        </div>
+                        <div class="pt-4 mt-4 border-t border-gray-200">
+                            <p class="text-sm text-white">Emergency snow removal available 24/7 during winter months</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
