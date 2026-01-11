@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Clear Cut Crew</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <main class="mx-auto px-4 py-32 max-w-4xl text-center bg-green-600">
+        <div class="bg-green-900 rounded-2xl p-12 md:p-20 shadow-xl">
+            <div class="w-24 h-24 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-8">
+                <i data-feather="check" class="text-white w-12 h-12"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">Thank You!</h1>
+            <p class="text-xl text-white mb-8 max-w-2xl mx-auto">
+                We've received your message and will get back to you within 24 hours with your free quote.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="/" class="bg-white text-green-800 px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-100 transition inline-block">
+                    Back to Home
+                </a>
+                <a href="/services.html" class="bg-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-700 transition inline-block">
+                    View Our Services
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
