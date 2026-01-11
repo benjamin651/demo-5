@@ -27,7 +27,7 @@ document.querySelectorAll('.service-card, .review-card').forEach(element => {
 // Form validation for contact page
 if (document.getElementById('contact-form')) {
     const contactForm = document.getElementById('contact-form');
-    
+    form.submit();
     contactForm.addEventListener('submit', function(e) {
         
         
